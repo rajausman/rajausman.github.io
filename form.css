@@ -1,0 +1,110 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    padding: 50px;
+    
+}
+.tab{
+    height: 35px;
+}
+#main-tab{
+    background-color: #a1a2cb;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+#bottom-tab{
+    display: flex;
+}
+.main-tab-item{
+    display: inline;
+    padding-top: 6px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+#main-tab select{
+    background-color: #A1CBBC;
+    border: none;
+}
+#main-tab p{
+    font-weight: bold;
+}
+.align-left{
+    margin-left: 20px;
+    padding-top: 12px;
+}
+.headline{
+    display: inline-block;
+    text-decoration: underline;
+}
+#lunch{
+    margin-left: 190px;
+    position: relative;
+    top: 20px;
+}
+.align-ui-control{
+    margin-left: 40px;
+}
+.text-field{
+    width: 210px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s
+}
+.select-field{
+    width: 218px;
+}
+.asterisk{
+    color: red;
+}
+#ui{
+    display: flex;
+}
+#space-down{
+    margin-bottom: 87px;
+}
+#payment-method{
+    margin-top: 80px;
+}
+#pay-details{
+    margin-top: 93px;
+}
+.ui-text{
+    font-weight: bold;
+}
+#bottom-buttons{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 4px;
+}
+.button-container{
+    margin: 0 20px;
+}
+.buttons{
+    background-color: #a1a2cb;
+    border: none;
+    width: 100px;
+    height: 28px;
+    color: #FFFFFF;
+    cursor: pointer
+}
+
+.all-column {
+    margin-left: 100px;
+}
